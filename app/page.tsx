@@ -4,6 +4,7 @@ import { HowItWorks } from "@/components/how-it-works"
 import { CtaSection } from "@/components/cta-section"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import CryptoPaymentSection from "@/components/cryptopay-section"
 
 export default function LandingPage() {
     return (
@@ -30,6 +31,7 @@ export default function LandingPage() {
             <LandingHero />
             <HowItWorks />
             <FeatureSection />
+            <CryptoPaymentSection />
             <CtaSection />
 
             <footer className="py-12 border-t mt-auto bg-secondary/10">
