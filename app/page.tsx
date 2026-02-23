@@ -16,6 +16,7 @@ export default function LandingPage() {
         <main className="min-h-screen bg-background text-foreground flex flex-col">
             <Navbar />
             <Hero />
+            <ProcessSection />
             <HowItWorks />
             <FeatureSection />
             <BlockchainFeaturesSection/>
